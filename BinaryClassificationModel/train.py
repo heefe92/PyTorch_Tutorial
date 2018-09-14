@@ -1,10 +1,10 @@
 import numpy as np
 import model
 
-from trainer import Trainer
+from .trainer import Trainer
 import torch as t
 import torch.optim as optim
-from dataset import Dataset
+from .dataset import Dataset
 import cv2,time
 
 def run_train(train_verbose=False):

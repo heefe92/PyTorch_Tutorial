@@ -1,7 +1,7 @@
 import torch as t
 import torch.nn as nn
 import numpy as np
-from losses import MyLoss
+from .losses import MyLoss
 
 class MyModel(nn.Module):
     def __init__(self):
