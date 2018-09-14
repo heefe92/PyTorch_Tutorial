@@ -1,14 +1,15 @@
 import numpy as np
-import model
 import collections
+import model
 
-from .trainer import Trainer
+
+from trainer import Trainer
 import torch as t
 import torch.optim as optim
-from .dataset import Dataset
+from dataset import Dataset
 from torch.utils import data as data_
 import cv2,time
-from .config import opt
+from config import opt
 
 def run_train(train_verbose=False):
     pass
